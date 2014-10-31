@@ -69,8 +69,6 @@ int main(int argc, char* argv[])
     struct fb_fix_screeninfo fix_info;
     char *fbp = 0; // framebuffer memory pointer
 
-    printf("Fire demo!\n");
-
     // Open the framebuffer device file for reading and writing
     fbfd = open("/dev/fb0", O_RDWR);
     if (!fbfd) {
