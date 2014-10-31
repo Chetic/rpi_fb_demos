@@ -226,5 +226,5 @@ int main(int argc, char* argv[])
         ioctl(kbfd, KDSETMODE, KD_TEXT);
     }
 
-    return 0;
+    return(0);
 }
